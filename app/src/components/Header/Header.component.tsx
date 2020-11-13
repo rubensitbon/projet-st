@@ -1,9 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View, SafeAreaView, Button } from 'react-native';
 import firebase from 'firebase';
+import { grid } from '../../style'
 
 
-class HomeScreen extends React.Component {
+class Header extends React.Component {
   state = { user: {} };
   componentDidMount() {
     firebase.auth().onAuthStateChanged((user) => {
@@ -31,8 +32,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
+    padding: grid(3),
   }
 });
 
 
-export default HomeScreen;
+export default Header;
