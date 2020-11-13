@@ -5,6 +5,7 @@
     "lib": ["dom", "esnext"],
     "moduleResolution": "node",
     "noEmit": true,
+    "baseUrl": "./src",
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "strict": true
