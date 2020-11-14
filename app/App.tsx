@@ -13,7 +13,7 @@ export default createAppContainer(
       App: HomeScreen,
     },
     {
-      initialRouteName: 'Auth'
+      initialRouteName: 'Auth',
     }
   )
 );

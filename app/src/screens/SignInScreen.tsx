@@ -131,14 +131,6 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     paddingBottom: 1.5,
     marginTop: 25.5
-  },
-  button: {
-    backgroundColor: "#3A559F",
-    height: 44,
-    flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
-    borderRadius: 22
   }
 });
 
