@@ -20,6 +20,7 @@ class HomeScreen extends React.Component {
 
     render() {
         const {currentGameroom} = this.state
+        console.log('currentGameroom', currentGameroom)
         return (
             <SafeAreaView style={{flex: 1}}>
                 <Header/>
